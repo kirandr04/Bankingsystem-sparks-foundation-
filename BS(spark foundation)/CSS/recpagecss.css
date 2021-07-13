@@ -1,0 +1,56 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    background-image: url("https://th.bing.com/th/id/R.b28960c7b03c1337150c77e3529f6e51?rik=t%2bs6AtbokxRqRg&riu=http%3a%2f%2fwww.indezine.com%2fpowerpoint%2ffree-powerpoint-templates%2ftemplates%2ft_ind_4823a.jpg&ehk=VwZM0DIdVz02xscY5aIsFXfivKqKkHykJavHNKi0KBc%3d&risl=&pid=ImgRaw");
+       padding-top: 100px;
+       font-size:20px;
+       padding-bottom: 100px;
+       /* background: #f5fce3;
+       background: -webkit-linear-gradient(to right, #f5fce3, #e1e6d6 );
+       background: linear-gradient(to right, #f5fce3, #e1e6d6 ); */
+      }
+.container{      
+    padding-top:5px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+}
+td,th { 
+    font-size: 20px;
+    border: 1px solid #ddd; 
+    padding: 8px;
+}
+#Table{ 
+    font-family: Arial,Helvetica, sans-serif; 
+    font-size: 15px;
+    border-collapse: collapse; 
+    border-radius: 10px;
+    margin-bottom: 15px;}
+#Table tr:nth-child(even){
+     background-color: #4a66be; 
+    }
+#Table tr:nth-child(odd){
+     background-color: #2d48a1; 
+    }
+#Table tr:hover{
+     background-color: #053769;
+     }
+#Table th {
+     padding-top: 12px; padding-bottom: 12px; 
+     text-align:left; 
+     background-color: #021f35; 
+     color:white; }
+footer {
+    background-color: #e8d7a2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+  
+}

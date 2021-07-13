@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://www.indezine.com/powerpoint/free-powerpoint-templates/templates/t_ind_4821a.jpg");
+    padding-top: 60px;
+    font-size:20px;
+    background:  #333;
+    background: -webkit-linear-gradient(to right, #3c3d3b, #3c3d3b );
+    background: linear-gradient(to right, #3c3d3b,#3c3d3b );
+}
+.transferMoney{
+color:white;
+background: #91c1c9;
+background: -webkit-linear-gradient(to bottom,  #ce814e, #c56b36 );
+background: linear-gradient(to bottom, #e48832, #da8921);
+padding: 20px;
+position:fixed;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+}
+td,th{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subbtn{
+    border-radius: 8px;
+}

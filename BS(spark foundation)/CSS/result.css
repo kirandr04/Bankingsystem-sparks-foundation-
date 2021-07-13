@@ -1,0 +1,50 @@
+body {
+    padding-top: 60px;
+    font-size:20px;
+    background: #0e0d0d;
+        background: linear-gradient(to bottom, #33ccff 0%, #990099 100%);
+
+    /*background: -webkit-linear-gradient(to right, #363634, #5b5c59 );
+    background: linear-gradient(to right, #545552,#363833);*/
+    /*background-image: url("tsuccess.jpg");*/
+}
+.center{
+background: #91c1c9;
+background: -webkit-linear-gradient(to bottom,  #91c1c9, #5e9da8 );
+background: linear-gradient(to bottom, #91c1c9, #3a5f66);
+padding-top:5px;
+display: block;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;    
+}
+.center2{
+font-size:15px;
+width:100%;
+}
+table {
+margin: 0 auto; /* or margin: 0 auto 0 auto */
+}
+td,th { 
+    border: 1px solid #ddd; 
+    padding: 8px;}
+#Table{ 
+    font-family: Arial,Helvetica, sans-serif; 
+    border-collapse: collapse;}
+#Table tr:nth-child(even){ 
+    background-color: #d2d3d4; 
+}
+#Table tr:nth-child(odd){ 
+    background-color: #dee2e3; 
+}
+#Table tr:hover{ 
+    background-color: #b5d0eb; 
+}
+#Table th { 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    text-align:left; 
+    background-color:  #6024cf; 
+    color:white; 
+}

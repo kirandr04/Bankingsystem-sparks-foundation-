@@ -1,0 +1,61 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+       padding-top: 60px;
+       font-size:20px;
+       padding-bottom: 100px;
+       /* background: #f5fce3;
+       background: -webkit-linear-gradient(to right, #f5fce3, #e1e6d6 );
+       background: linear-gradient(to right, #f5fce3, #e1e6d6 ); */
+        background-image: url("https://th.bing.com/th/id/R.4c44ffb3128ea2386e94675af604a8e4?rik=rh4H8KfpM7jGNg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fBlack-Background-Images.jpg&ehk=GF%2fx2TdurjLr3LDjKtvz4uUtmU48SpF%2f2z3z1mHxg0E%3d&risl=&pid=ImgRaw");
+    }
+.container{      
+        padding-top:5px;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;    
+}
+
+td,th { 
+    font-size: 20px;
+    border: 1px solid #ddd; 
+    padding: 8px;}
+#Table{ 
+    font-family: Arial,Helvetica, sans-serif; 
+    border-collapse: collapse; 
+    margin-bottom: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+#Table tr:nth-child(even){ 
+    background-color: #5cb8e2; 
+}
+#Table tr:nth-child(odd){
+     background-color: #325d68; 
+    }
+#Table tr:hover{
+     background-color: #0b63bb;
+     }
+#Table th { 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    text-align:left; 
+    background-color: #608fb3; 
+    color:white; }
+footer {
+    background-color: #b45858;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+  
+}
+h2{
+    color:whitesmoke;
+}
